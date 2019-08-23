@@ -1,0 +1,155 @@
+title,href
+BUG: SparseDataFrame op incorrectly casting to float,/pandas-dev/pandas/pull/28107
+DataFrameGroupby.boxplot fails when subplots=False,/pandas-dev/pandas/pull/28102
+COMPAT: implement visit_Constant for 3.8 compat,/pandas-dev/pandas/pull/28101
+Bug: merge_asof() cannot use datetime.timedelta as tolerance kwarg ,/pandas-dev/pandas/pull/28100
+"PERF: replace with list, closes #28084",/pandas-dev/pandas/pull/28099
+EHN: groupby missing data in index,/pandas-dev/pandas/pull/28097
+Docstrings,/pandas-dev/pandas/pull/28096
+Fixes issue #27563,/pandas-dev/pandas/pull/28091
+DOC: Make explicit in pandas IO doc the imports and options,/pandas-dev/pandas/pull/28089
+DOC: Remove alias for numpy.random.randn from the docs,/pandas-dev/pandas/pull/28082
+REF: separate bloated test,/pandas-dev/pandas/pull/28081
+DOC: redirect from_csv search,/pandas-dev/pandas/pull/28075
+REF: do extract_array earlier in series arith/comparison ops,/pandas-dev/pandas/pull/28066
+DOC:Timestamp timedelta,/pandas-dev/pandas/pull/28053
+Make DataFrame.to_string output full content by default,/pandas-dev/pandas/pull/28052
+TST: fix compression tests when run without virtualenv/condaenv,/pandas-dev/pandas/pull/28051
+BUG: timedelta64(NaT) incorrectly treated as datetime in some dataframe ops,/pandas-dev/pandas/pull/28049
+BUG: retain extension dtypes in transpose,/pandas-dev/pandas/pull/28048
+Issue 20927 fix resolves read_sas error for dates/datetimes greater than 2262-04-11,/pandas-dev/pandas/pull/28047
+REF: boilerplate for ops internal consistency,/pandas-dev/pandas/pull/28037
+CLN: small ops optimizations,/pandas-dev/pandas/pull/28036
+Add support to names keyword in Index,/pandas-dev/pandas/pull/28032
+DOC: Fix docstrings lack of punctuation,/pandas-dev/pandas/pull/28031
+REF: standardize usage in DataFrame vs SparseDataFrame ops,/pandas-dev/pandas/pull/28027
+CLN: timeseries in plotting clean up,/pandas-dev/pandas/pull/28020
+DOC/TST: Update the parquet (pyarrow >= 0.15) docs and tests regarding Categorical support,/pandas-dev/pandas/pull/28018
+Adding new pandas website,/pandas-dev/pandas/pull/28014
+Avoid duplicating entire exploded column when joining back with origi…,/pandas-dev/pandas/pull/28010
+DOC: Improve melt example (#23844),/pandas-dev/pandas/pull/28006
+Hack fix for BUG - GH24784,/pandas-dev/pandas/pull/28003
+TST 27905 - testing groupby.transform('sum'),/pandas-dev/pandas/pull/28002
+"When a DataFrame is merged with an empty dataframe, it was creating an incorrect index for the resulting dataframe. Fix for it ",/pandas-dev/pandas/pull/28000
+ENH: Add support for dataclasses in the DataFrame constructor,/pandas-dev/pandas/pull/27999
+"Raise exception in read_csv when prefix is set, but not used because a header exists",/pandas-dev/pandas/pull/27998
+BUG/TST: fix and test for timezone drop in GroupBy.shift/bfill/ffill,/pandas-dev/pandas/pull/27992
+DOC: Fix GL01 and GL02 errors in the docstrings,/pandas-dev/pandas/pull/27988
+Support str param type for partition_cols in to_parquet function,/pandas-dev/pandas/pull/27984
+Read csv test,/pandas-dev/pandas/pull/27982
+DOC: Fixing flake8 error in basics.rst,/pandas-dev/pandas/pull/27981
+Series.rename now handles values by Series constructor ,/pandas-dev/pandas/pull/27975
+test case for transform with fillna #27905,/pandas-dev/pandas/pull/27974
+DOC: Added periods to end of docstrings in explode function.  #23630,/pandas-dev/pandas/pull/27973
+Added Engine Disposal Documentation,/pandas-dev/pandas/pull/27972
+Added try-except clause to catch numpy error.,/pandas-dev/pandas/pull/27970
+BUG: don't cache pandas matplotlib converters (#27036),/pandas-dev/pandas/pull/27968
+updated default quoting on to_csv function to csv.QUOTE_NONNUMERIC,/pandas-dev/pandas/pull/27965
+"added names, fastpath parameters explanation to pandas.Series",/pandas-dev/pandas/pull/27964
+pandas.read_parquet now has info that it accepts path_to_directory that contains multiple parquet files,/pandas-dev/pandas/pull/27961
+DOC: Add missing parameters to Series constructor,/pandas-dev/pandas/pull/27960
+REF: use dispatch_to_extension_op for bool ops,/pandas-dev/pandas/pull/27959
+Remove null values before sorting during groupby nunique calculation,/pandas-dev/pandas/pull/27951
+TST: parametrize and de-duplicate arith tests,/pandas-dev/pandas/pull/27950
+API: Add string extension type,/pandas-dev/pandas/pull/27949
+"CLN: internals.blocks cleanup, typing",/pandas-dev/pandas/pull/27941
+BUG: set_precision format fixed (#13257),/pandas-dev/pandas/pull/27934
+[DEPR] Deprecate numeric_only parameter in Categorical.min and max,/pandas-dev/pandas/pull/27929
+Assignment of column via .loc for numpy non-ns datetimes,/pandas-dev/pandas/pull/27928
+BUG: Lambda function returns KeyError in DataFrameGroupBy.agg,/pandas-dev/pandas/pull/27921
+STYLE: run pre-commit filters on the repo,/pandas-dev/pandas/pull/27915
+CLN: Catch more specific exceptions in groupby,/pandas-dev/pandas/pull/27909
+EHN: Add encoding_errors option in pandas.DataFrame.to_csv (#27750),/pandas-dev/pandas/pull/27899
+Infer names in MultiIndex.from_product,/pandas-dev/pandas/pull/27895
+unique() should preserve the dtype of the input,/pandas-dev/pandas/pull/27874
+BUG: DataFrameGroupBy.transform and ngroup do not work with cumcount,/pandas-dev/pandas/pull/27858
+DOC: GroupBy.head()/tail() documentation,/pandas-dev/pandas/pull/27844
+Parametrize JSON tests,/pandas-dev/pandas/pull/27838
+[WIP] Improve CI/CD pipeline performance,/pandas-dev/pandas/pull/27804
+"[ENH] Add argmax, max, argmin, min to EA",/pandas-dev/pandas/pull/27801
+BUG: Increase range of dates for holiday calculations,/pandas-dev/pandas/pull/27790
+TYPING: more type hints for io.formats.printing,/pandas-dev/pandas/pull/27765
+BUG: right merge not preserve row order (#27453),/pandas-dev/pandas/pull/27762
+BUG: Fix numpy boolean subtraction error in Series.diff,/pandas-dev/pandas/pull/27755
+TYPING: more type hints for io.common,/pandas-dev/pandas/pull/27732
+BUG: update dict of sheets before check,/pandas-dev/pandas/pull/27730
+Removed continued parametrization of FilePathOrBuffer,/pandas-dev/pandas/pull/27719
+Fix pandas replace does not work with boolean ,/pandas-dev/pandas/pull/27696
+ENH: Implement weighted rolling var and std,/pandas-dev/pandas/pull/27682
+BUG: fixes formatted value error for missing sheet (#27676),/pandas-dev/pandas/pull/27677
+BUG: fix nested meta path bug (GH 27220),/pandas-dev/pandas/pull/27667
+TYPING: add some type hints to core.generic,/pandas-dev/pandas/pull/27646
+BUG: cells are missing in the excel file when exporting excel using xlsxwriter with option constant_memory set to True (#15392),/pandas-dev/pandas/pull/27624
+DEPR: remove ix,/pandas-dev/pandas/pull/27620
+Remove Encoding of values in char** For Labels,/pandas-dev/pandas/pull/27618
+DEPR: Deprecate NDFrame.filter,/pandas-dev/pandas/pull/27617
+Move json_normalize to pd namespace,/pandas-dev/pandas/pull/27615
+[WIP] Quick fix to provide complex data type support for hashmap based algorithms,/pandas-dev/pandas/pull/27599
+CLN: Centralised _check_percentile,/pandas-dev/pandas/pull/27584
+Make most arguments for read_html and read_json keyword-ony,/pandas-dev/pandas/pull/27573
+DOC: Harmonize column selection to bracket notation,/pandas-dev/pandas/pull/27562
+STY: add pandas._typing to the known_pre_core block for isort,/pandas-dev/pandas/pull/27552
+COMPAT: remove Categorical pickle compat with Pandas < 0.16,/pandas-dev/pandas/pull/27538
+CLN: remove unused parts of skiplist (most of it),/pandas-dev/pandas/pull/27465
+Fix #27451 (doc + validation),/pandas-dev/pandas/pull/27459
+Initial implementation of rolling iterators,/pandas-dev/pandas/pull/27399
+in groupby sorting index when length of groupings is one,/pandas-dev/pandas/pull/27386
+DOC: document optional arguments on plot submethods,/pandas-dev/pandas/pull/27381
+BUG: Wrong dtype when resetting a multiindex with missing values. (#1…,/pandas-dev/pandas/pull/27370
+BUG: Need 'windows-1252' encoding for locale names.,/pandas-dev/pandas/pull/27368
+ENH: add regex parameter to .loc,/pandas-dev/pandas/pull/27363
+Implement DataFrame.value_counts,/pandas-dev/pandas/pull/27350
+BUG:remove rollback from generate_range,/pandas-dev/pandas/pull/27337
+ENH: Use IntergerArray to avoid forced conversion from integer to float,/pandas-dev/pandas/pull/27335
+CI: format isort output for detection by azure pipelines,/pandas-dev/pandas/pull/27334
+BUG: reindex with empty inputs,/pandas-dev/pandas/pull/27326
+BLD: support 3.8 pre,/pandas-dev/pandas/pull/27266
+Enhancement include or exclude keys in json normalize,/pandas-dev/pandas/pull/27262
+BUG: Enable changing dtype of column where column names are not unique,/pandas-dev/pandas/pull/27256
+Separate MultiIndex names from levels,/pandas-dev/pandas/pull/27242
+ENH: Added key option to df/series.sort_values(key=...) and df/series.sort_index(key=...) sorting,/pandas-dev/pandas/pull/27237
+Add Series._repr_html_,/pandas-dev/pandas/pull/27228
+POC: add closed argument to IndexSlice,/pandas-dev/pandas/pull/27209
+WIP: Remove conda warning,/pandas-dev/pandas/pull/27195
+EA: support basic 2D operations,/pandas-dev/pandas/pull/27142
+Plotting ExtensionArrays,/pandas-dev/pandas/pull/27118
+Update visualization.rst,/pandas-dev/pandas/pull/27092
+[POC] CLN: use ExtensionBlock for datetime tz data,/pandas-dev/pandas/pull/27072
+DOC: Exception raised if columns do not match data GH27003,/pandas-dev/pandas/pull/27067
+CI: Use conda compiler in `environment.yml`,/pandas-dev/pandas/pull/27062
+Contributing Guide for Type Hints,/pandas-dev/pandas/pull/27050
+BUG: Fix redundant run of unwinding nested dictionary,/pandas-dev/pandas/pull/27046
+fixes qcut failing for labels = True,/pandas-dev/pandas/pull/27033
+BUG-26988 implement replace for categorical blocks,/pandas-dev/pandas/pull/27026
+add type hint for core/computation/eval,/pandas-dev/pandas/pull/26992
+REF: remove special-casing for internal EAs from format_array,/pandas-dev/pandas/pull/26965
+WIP/CI/TST: Clean up of the tests script,/pandas-dev/pandas/pull/26949
+Calculate normalized freqs in value_counts correctly when bins is not None,/pandas-dev/pandas/pull/26923
+Add docstring to the insertion method & add empty result note,/pandas-dev/pandas/pull/26872
+Annotate DataFrame (Part 1),/pandas-dev/pandas/pull/26867
+fix a indices bug for categorical-datetime columns,/pandas-dev/pandas/pull/26860
+BUG:Sanity check on merge parameters for correct exception #26824,/pandas-dev/pandas/pull/26855
+DEPR: deprecate notebook argument in DataFrame.to_html(),/pandas-dev/pandas/pull/26815
+DOC: Document existing functionality of pandas.DataFrame.to_sql() #11886,/pandas-dev/pandas/pull/26795
+BUG: Check for duplicate names columns and index in crosstab,/pandas-dev/pandas/pull/26717
+Defer Series.str.get_dummies to pandas.get_dummies,/pandas-dev/pandas/pull/26686
+ENH: Added stride/offset aliases in to_datetime,/pandas-dev/pandas/pull/26631
+fixes #26622: pd.MultiIndex.isin should fail when input args are too short,/pandas-dev/pandas/pull/26623
+BUG: assignment to multiple columns when some column do not exist,/pandas-dev/pandas/pull/26534
+BUG-26214 fix colors parameter in DataFrame.boxplot,/pandas-dev/pandas/pull/26456
+[ENH] Use default EA repr for IntervalArray,/pandas-dev/pandas/pull/26316
+"BUG: Fix #10355, std() groupby calculation",/pandas-dev/pandas/pull/26229
+ENH: allow saving wide dataframes to hdf with format table,/pandas-dev/pandas/pull/26135
+ ENH: Allow compression in NDFrame.to_csv to be a dict with optional arguments (#26023),/pandas-dev/pandas/pull/26024
+DEPR: Deprecate sort=None for union and implement sort=True,/pandas-dev/pandas/pull/25980
+REF: handling of max_colwidth parameter,/pandas-dev/pandas/pull/25977
+TST: Fix Validation Script to not error out if ends with Bullet Points,/pandas-dev/pandas/pull/25786
+ENH: added optional caption and label arguments to DataFrame.to_latex(),/pandas-dev/pandas/pull/25437
+REF: Fix maybe_promote,/pandas-dev/pandas/pull/25425
+Series pct_change fill_method behavior,/pandas-dev/pandas/pull/25291
+ENH: Added maxgap keyword for series.interpolate,/pandas-dev/pandas/pull/25141
+Fix #25099 set na_rep values before converting to string to prevent data truncation,/pandas-dev/pandas/pull/25103
+[WIP] Excel table output,/pandas-dev/pandas/pull/24899
+ENH: Implement EA unary ops,/pandas-dev/pandas/pull/23313
+API: remove ordered requirement in Categorical.searchsorted,/pandas-dev/pandas/pull/21686
+ BUG: allow None as upcasted_na value ,/pandas-dev/pandas/pull/20851
