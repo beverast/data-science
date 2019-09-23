@@ -48,11 +48,11 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 ### Tech Stack
 
-🚫 List all of the languages, frameworks, services, etc used here.
+🚫 Pandas, tslearn, scipy, scikit-learn, numpy, requests, os, zipfile, category_encoders
 
 ### 2️⃣ Predictions
 
-🚫 Describe your models here
+🚫 Run hierarchcial clustering on Dynamic Time Warping values of the repo to check if there are unique clusters.
 
 ### 2️⃣ Explanatory Variables
 
