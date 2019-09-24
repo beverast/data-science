@@ -18,10 +18,9 @@ To analyze open source projects and determine common features that influence the
 
 ## Project Overview
 
+[Trello Board](https://trello.com/b/aMs5qF5U/labs-15-github-commit)
 
-1️⃣ [Trello Board](https://trello.com/b/aMs5qF5U/labs-15-github-commit)
-
-1️⃣ [Product Canvas](https://www.notion.so/Github-Commit-Analysis-9f39d9567c494a29b3084bf5014b1da2)
+[Product Canvas](https://www.notion.so/Github-Commit-Analysis-9f39d9567c494a29b3084bf5014b1da2)
 
 
 **Why: What value can the consumer get from this?**
@@ -42,15 +41,15 @@ To analyze open source projects and determine common features that influence the
 
 ### Tech Stack
 
-Pandas - Data organization, wranging, cleaning
-tslearn - Calculate dtw values of each repo
-scipy - Run PCA and hierarchical clustering
-scikit-learn - Run clustering models and preprocessing
-numpy - organize and clean data
-requests - Access APIs
-os - Access repo data files
-zipfile - Zip a file
-category_encoders - Encode categorical variables into ordinal variables
+- Pandas - Data organization, wranging, cleaning
+- tslearn - Calculate dtw values of each repo
+- scipy - Run PCA and hierarchical clustering
+- scikit-learn - Run clustering models and preprocessing
+- numpy - organize and clean data
+- requests - Access APIs
+- os - Access repo data files
+- zipfile - Zip a file
+- category_encoders - Encode categorical variables into ordinal variables
 
 ### Predictions
 Initial Assumptions:
