@@ -1,16 +1,9 @@
-🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.
+# GitHub Analysis
 
-🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
+To analyze open source projects and determine common features that influence the continued growth in contributions and popularity.
 
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements.
+## Contributors
 
-# 1️⃣ GitHub Analysis
-
-You can find the project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
-
-## 5️⃣ Contributors
-
-🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
 
 |                                       [Patrick Wilky](https://github.com/PWalis)                                        |                                       [Joseph Wagner](https://github.com/beverast)                                        |                                       [Dustin Yang](https://github.com/dustiny5)                                        |                                       [Patrick Steveson](https://github.com/Mrsteveson)                                        |                                       
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
@@ -20,57 +13,72 @@ You can find the project at [🚫URL NAME GOES HERE](🚫copy and paste URL here
 
 
 
-🚫 5️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
-
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![Typescript](https://img.shields.io/npm/types/typescript.svg?style=flat)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5c4db1c-b10d-42c3-b157-3746edd9e81d/deploy-status)](netlify link goes in these parenthesis)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-🚫 more info on using badges [here](https://github.com/badges/shields)
 
 ## Project Overview
 
 
-1️⃣ [Trello Board](🚫add link to trello board here)
+1️⃣ [Trello Board](https://trello.com/b/aMs5qF5U/labs-15-github-commit)
 
-1️⃣ [Product Canvas](🚫add link to product canvas here)
+1️⃣ [Product Canvas](https://www.notion.so/Github-Commit-Analysis-9f39d9567c494a29b3084bf5014b1da2)
 
-🚫 Replace lorem ipsum with a description of your project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Why: What value can the consumer get from this?**
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Gain insight to what makes a GitHub repository successful.
+- Avoid the pitfalls of an unsuccessful GitHub repository.
+- Monitor repo success metrics (whatever those are)
 
-🚫  delete if front end is not applicable to your project
+**How do we know something is successful? How do we measure success?**
 
-1️⃣ [Deployed Front End](🚫add link to deployed app here)
+- Funding, Contributors, Bug Fixes, Pull Requests
+- General outreach
+    - marketing
+    - social media
+    - workshops
+    - newsletters
+- user adoption
 
 ### Tech Stack
 
-🚫 Pandas, tslearn, scipy, scikit-learn, numpy, requests, os, zipfile, category_encoders
+Pandas - Data organization, wranging, cleaning
+tslearn - Calculate dtw values of each repo
+scipy - Run PCA and hierarchical clustering
+scikit-learn - Run clustering models and preprocessing
+numpy - organize and clean data
+requests - Access APIs
+os - Access repo data files
+zipfile - Zip a file
+category_encoders - Encode categorical variables into ordinal variables
 
-### 2️⃣ Predictions
+### Predictions
+Initial Assumptions:
+Run hierarchcial clustering on Dynamic Time Warping values of the repo to check if there are unique clusters of successful and unsuccessful repo.
 
-🚫 Run hierarchcial clustering on Dynamic Time Warping values of the repo to check if there are unique clusters.
+Results:
+Two main clusters: 1 cluster showed more activity then the other. This does not mean it is more successful than the other. More analysis required to confirm our assumptions.
 
-### 2️⃣ Explanatory Variables
+Future Ideas:
+- Run DTW on issue and pull request association and see if it'll generate different results when clustering
+- Run DTW on sentiment to confirm if average sentiment per cluster to check if the results were meaningful
+- Run DTW on different time periods and check if better clusters are formed
+- Gather more data and run different models(Neural Networks or other unsupervised learning models)
+- Investigate sub cluster within each cluster
+- Run other NLP methods like: Topic Modeling - Context of the corpus(all comments in issues or pull request)
+- Run NLP on tweets or reddit if the repo has one
+- Binning by features(age or repo, stars, issues, commits, pull requests etc...) and run a cluster model
 
--   Explanatory Variable 1
--   Explanatory Variable 2
--   Explanatory Variable 3
--   Explanatory Variable 4
--   Explanatory Variable 5
+### Explanatory Variables
+
+- Used unsupervised learning and did not have explanatory variables
+- Used data from issues, pull request, stars, and commits to feed into our unsupervised clustering model
 
 ### Data Sources
-🚫  Add to or delete souce links as needed for your project
 
-
--   [Source 1] (🚫add link to python notebook here)
--   [Source 2] (🚫add link to python notebook here)
--   [Source 3] (🚫add link to python notebook here)
--   [Source 4] (🚫add link to python notebook here)
--   [Source 5] (🚫add link to python notebook here)
+-   [GraphQL] (https://developer.github.com/v4/explorer/)
+-   [Twitter] ( https://developer.twitter.com/)
+-   [Reddit] (https://www.reddit.com/wiki/api)
 
 ### Python Notebooks
 
@@ -81,14 +89,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 [Python Notebook 2](🚫add link to python notebook here)
 
 [Python Notebook 3](🚫add link to python notebook here)
-
-### 3️⃣ How to connect to the web API
-
-🚫 List directions on how to connect to the API here
-
-### 3️⃣ How to connect to the data API
-
-🚫 List directions on how to connect to the API here
 
 ## Contributing
 
@@ -125,9 +125,3 @@ Remember that this project is licensed under the MIT license, and by submitting 
 ### Attribution
 
 These contribution guidelines have been adapted from [this good-Contributing.md-template](https://gist.github.com/PurpleBooth/b24679402957c63ec426).
-
-## Documentation
-
-See [Backend Documentation](_link to your backend readme here_) for details on the backend of our project.
-
-See [Front End Documentation](_link to your front end readme here_) for details on the front end of our project.
