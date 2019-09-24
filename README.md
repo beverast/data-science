@@ -75,9 +75,9 @@ Future Ideas:
 
 ### Data Sources
 
--   [GraphQL] (https://developer.github.com/v4/explorer/)
--   [Twitter] ( https://developer.twitter.com/)
--   [Reddit] (https://www.reddit.com/wiki/api)
+-   [GraphQL](https://developer.github.com/v4/explorer/)
+-   [Twitter]( https://developer.twitter.com/)
+-   [Reddit](https://www.reddit.com/wiki/api)
 
 ### Python Notebooks
 
