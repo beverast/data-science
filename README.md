@@ -81,11 +81,9 @@ Future Ideas:
 
 ### Python Notebooks
 
-🚫  Add to or delete python notebook links as needed for your project
+[Dyanmic Time Warping and Hierarchical Clustering](https://github.com/labs15-github-commit/data-science/blob/master/DTW_Hierarchical_Clustering/DTW_Clustering.ipynb)
 
-[Python Notebook 1](🚫add link to python notebook here)
-
-[Python Notebook 2](🚫add link to python notebook here)
+[Srape Github's Data using GraphQL](https://github.com/labs15-github-commit/data-science/blob/master/GithubGraphQL/GithubGraphQL_All.ipynb)
 
 [Python Notebook 3](🚫add link to python notebook here)
 
