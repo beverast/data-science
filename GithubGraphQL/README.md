@@ -5,4 +5,4 @@ Notebook showing how we queried issues, pull request, stars, and commits per rep
 OR
 - Ran a query searching for a single repo
 
-** Feel free to check to notebook! **
+** Feel free to check the notebook! **
