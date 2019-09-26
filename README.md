@@ -45,9 +45,9 @@ To analyze open source projects and determine common features that influence the
 - tslearn - Calculate dtw values of each repo
 - scipy - Run PCA and hierarchical clustering
 - scikit-learn - Run clustering models and preprocessing
-- numpy - organize and clean data
+- numpy - Organize and clean data
 - requests - Access APIs
-- os - Access repo data files
+- os - Access lists of repo files
 - zipfile - Zip a file
 - category_encoders - Encode categorical variables into ordinal variables
 
@@ -84,8 +84,6 @@ Future Ideas:
 [Dyanmic Time Warping and Hierarchical Clustering](https://github.com/labs15-github-commit/data-science/blob/master/DTW_Hierarchical_Clustering/DTW_Clustering.ipynb)
 
 [Srape Github's Data using GraphQL](https://github.com/labs15-github-commit/data-science/blob/master/GithubGraphQL/GithubGraphQL_All.ipynb)
-
-[Python Notebook 3](🚫add link to python notebook here)
 
 ## Contributing
 
